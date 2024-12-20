@@ -4,16 +4,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f9;
+    background-color: #ede5d3;
     margin: 0;
-}
-
-.quote-widget {
-    background-color: #fff;
-    padding: 20px;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    text-align: center;
 }
 
 #quote-text {
@@ -22,14 +14,21 @@ body {
     font-style: regular;
 }
 
+#author {
+    font-style: italic;
+    font-weight: regular;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
 #new-quote {
-    padding: 10px 20px;
+    padding: 5px 10px;
     background-color: #3498db;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #new-quote:hover {
